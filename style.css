@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1920px;
+    height: 1080px;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+}
+.wrap{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.logo-image{
+    background: url(/assets/svg/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 
+    cover;
+    width: 60px;
+    height: 50px;
+    background-color: transparent;
+}
+.logo-image:hover{
+    filter: brightness(.85);
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    color: blanchedalmond;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+li{
+    margin-left: 60px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+.li:hover{
+    color: wheat;
+}
+.active{
+    color: wheat;
+}
+.main{
+    height: 80%;
+    background-color: blue;
+    background: url(assets/img/drozd.jpg);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+audio{
+    display: none;
+}
+.btn{
+    background: url(assets/svg/pause.svg);
+    width: 150px;
+    height: 150px;
+    background-size: contain !important;
+    background-color: transparent !important;
+    background-repeat: no-repeat !important;
+
+}
+.btn:hover{
+    filter: brightness(.85);
+}
+.video-player{
+    
+}
+footer{
+    height: 10%;
+    background-color: black;
+}
+.footer-container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.left-side{
+    height: 100%;
+    width: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.left-side div{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.right-side{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.rs-logo{
+    background: url(assets/svg/rss.svg);
+    width: 100px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
